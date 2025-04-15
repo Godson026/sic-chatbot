@@ -1,0 +1,97 @@
+:root {
+  /* SIC Life primary colors */
+  --sic-green: #4CAF50; /* Primary green */
+  --sic-green-dark: #388E3C; /* Darker green for hover states */
+  --sic-green-light: #81C784; /* Lighter green for accents */
+  --sic-yellow: #FFD700; /* Yellow for highlights */
+  --sic-orange: #FF9800; /* Orange for info boxes */
+  --sic-white: #ffffff;
+  --sic-gray: #f5f5f5;
+  --sic-gray-dark: #333333;
+  
+  /* Additional colors for UI elements */
+  --sic-hover-green: #43A047;
+  --sic-border: #e0e0e0;
+  --sic-text: #333333;
+  --sic-text-light: #666666;
+}
+
+/* Custom utility classes for SIC Life theme */
+.sic-bg-primary {
+  background-color: var(--sic-green);
+}
+
+.sic-bg-secondary {
+  background-color: var(--sic-green-dark);
+}
+
+.sic-bg-accent {
+  background-color: var(--sic-yellow);
+}
+
+.sic-bg-orange {
+  background-color: var(--sic-orange);
+}
+
+.sic-text-primary {
+  color: var(--sic-green);
+}
+
+.sic-text-secondary {
+  color: var(--sic-green-dark);
+}
+
+.sic-text-accent {
+  color: var(--sic-yellow);
+}
+
+.sic-text-orange {
+  color: var(--sic-orange);
+}
+
+.sic-border {
+  border-color: var(--sic-border);
+}
+
+.sic-hover:hover {
+  background-color: var(--sic-hover-green);
+}
+
+/* Custom button styles */
+.sic-button {
+  background-color: var(--sic-green);
+  color: var(--sic-white);
+  transition: background-color 0.2s;
+}
+
+.sic-button:hover {
+  background-color: var(--sic-hover-green);
+}
+
+.sic-button-accent {
+  background-color: var(--sic-yellow);
+  color: var(--sic-gray-dark);
+}
+
+.sic-button-accent:hover {
+  background-color: #FBC02D;
+}
+
+.sic-button-orange {
+  background-color: var(--sic-orange);
+  color: var(--sic-white);
+}
+
+.sic-button-orange:hover {
+  background-color: #F57C00;
+}
+
+/* Custom input styles */
+.sic-input {
+  border-color: var(--sic-border);
+}
+
+.sic-input:focus {
+  border-color: var(--sic-green);
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+} 
