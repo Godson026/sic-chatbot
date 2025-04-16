@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sic-chatbot
+    env: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npx serve -s build
+    repo: https://github.com/Godson026/sic-chatbot
+    branch: main
