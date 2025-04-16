@@ -4,6 +4,6 @@ services:
     env: node
     plan: free
     buildCommand: npm run build
-    startCommand: npx serve -s build
+    startCommand: npx serve -s build -l 10000
     repo: https://github.com/Godson026/sic-chatbot
     branch: main
